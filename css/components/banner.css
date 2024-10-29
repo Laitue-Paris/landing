@@ -1,0 +1,51 @@
+.banner {
+  background-image: url("../../images/movember.png");
+  background-position: center;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  background-size: cover;
+}
+
+.banner h1, .banner p {
+  letter-spacing: .4rem;
+  text-align: center;
+}
+
+
+.banner h1 {
+  font-weight: 900;
+  font-size: 40px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.banner p {
+  font-weight: 500;
+  font-size: 24px;
+  font-family: Roboto;
+
+}
+
+#money {
+  display: inline-block;
+}
+
+#money:hover {
+  animation: vibrate 0.5s;
+  color: red;
+  cursor: pointer;
+}
+
+
+@keyframes vibrate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-3deg); }
+  20% { transform: rotate(3deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(3deg); }
+  50% { transform: rotate(-3deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-3deg); }
+  80% { transform: rotate(3deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-3deg); }
+}

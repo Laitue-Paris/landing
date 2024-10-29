@@ -1,0 +1,19 @@
+.card-presentation {
+  border: 1px solid;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-presentation img {
+  height: 200px;
+  transition: all 0.3 ease;
+}
+
+.card-presentation img:hover {
+  opacity: 0.7;
+}
+
+.card-presentation p {
+  opacity: 0.7;
+}

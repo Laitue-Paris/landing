@@ -1,0 +1,23 @@
+.flex-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 480px;
+  padding-bottom: 75px;
+  box-sizing: border-box;
+}
+
+.flex-presentation{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 30px
+}
+
+.flex-networks{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 30px
+}
